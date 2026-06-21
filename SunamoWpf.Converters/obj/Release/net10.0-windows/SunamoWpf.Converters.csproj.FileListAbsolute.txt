@@ -1,0 +1,16 @@
+E:\vs\Projects\PlatformIndependentNuGetPackages\SunamoWpf.Converters\SunamoWpf.Converters\bin\Release\net10.0-windows\SunamoWpf.Converters.deps.json
+E:\vs\Projects\PlatformIndependentNuGetPackages\SunamoWpf.Converters\SunamoWpf.Converters\bin\Release\net10.0-windows\SunamoWpf.Converters.dll
+E:\vs\Projects\PlatformIndependentNuGetPackages\SunamoWpf.Converters\SunamoWpf.Converters\bin\Release\net10.0-windows\SunamoWpf.Converters.pdb
+E:\vs\Projects\PlatformIndependentNuGetPackages\SunamoWpf.Converters\SunamoWpf.Converters\bin\Release\net10.0-windows\SunamoWpf.Core.dll
+E:\vs\Projects\PlatformIndependentNuGetPackages\SunamoWpf.Converters\SunamoWpf.Converters\bin\Release\net10.0-windows\SunamoWpf.SunamoUtils.dll
+E:\vs\Projects\PlatformIndependentNuGetPackages\SunamoWpf.Converters\SunamoWpf.Converters\bin\Release\net10.0-windows\SunamoWpf.Core.pdb
+E:\vs\Projects\PlatformIndependentNuGetPackages\SunamoWpf.Converters\SunamoWpf.Converters\bin\Release\net10.0-windows\SunamoWpf.SunamoUtils.pdb
+E:\vs\Projects\PlatformIndependentNuGetPackages\SunamoWpf.Converters\SunamoWpf.Converters\obj\Release\net10.0-windows\SunamoWpf.Converters.csproj.AssemblyReference.cache
+E:\vs\Projects\PlatformIndependentNuGetPackages\SunamoWpf.Converters\SunamoWpf.Converters\obj\Release\net10.0-windows\SunamoWpf.Converters.GeneratedMSBuildEditorConfig.editorconfig
+E:\vs\Projects\PlatformIndependentNuGetPackages\SunamoWpf.Converters\SunamoWpf.Converters\obj\Release\net10.0-windows\SunamoWpf.Converters.csproj.CoreCompileInputs.cache
+E:\vs\Projects\PlatformIndependentNuGetPackages\SunamoWpf.Converters\SunamoWpf.Converters\obj\Release\net10.0-windows\SunamoWpf.Converters.sourcelink.json
+E:\vs\Projects\PlatformIndependentNuGetPackages\SunamoWpf.Converters\SunamoWpf.Converters\obj\Release\net10.0-windows\SunamoWp.53136B83.Up2Date
+E:\vs\Projects\PlatformIndependentNuGetPackages\SunamoWpf.Converters\SunamoWpf.Converters\obj\Release\net10.0-windows\SunamoWpf.Converters.dll
+E:\vs\Projects\PlatformIndependentNuGetPackages\SunamoWpf.Converters\SunamoWpf.Converters\obj\Release\net10.0-windows\refint\SunamoWpf.Converters.dll
+E:\vs\Projects\PlatformIndependentNuGetPackages\SunamoWpf.Converters\SunamoWpf.Converters\obj\Release\net10.0-windows\SunamoWpf.Converters.pdb
+E:\vs\Projects\PlatformIndependentNuGetPackages\SunamoWpf.Converters\SunamoWpf.Converters\obj\Release\net10.0-windows\ref\SunamoWpf.Converters.dll
