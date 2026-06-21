@@ -1,0 +1,12 @@
+global using SunamoWpf._sunamo;
+global using SunamoWpf._sunamo.SunamoExceptions;
+global using SunamoWpf.Converters;
+global using SunamoWpf.ValueConverters;
+global using SunamoWpf;
+global using System;
+global using System.Globalization;
+global using System.Windows;
+global using System.Windows.Controls;
+global using System.Windows.Data;
+global using System.Windows.Media;
+global using System.Windows.Media.Imaging;
