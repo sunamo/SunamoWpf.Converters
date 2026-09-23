@@ -1,0 +1,12 @@
+C:\Users\aktiv\AppData\Local\Temp\build_audit_logs\SunamoWpf.Converters.deps.json
+C:\Users\aktiv\AppData\Local\Temp\build_audit_logs\SunamoWpf.Converters.dll
+C:\Users\aktiv\AppData\Local\Temp\build_audit_logs\SunamoWpf.Converters.pdb
+E:\vs\Projects\WindowsNuGetPackages\SunamoWpf.Converters\SunamoWpf.Converters\obj\Debug\net10.0-windows\SunamoWpf.Converters.csproj.AssemblyReference.cache
+E:\vs\Projects\WindowsNuGetPackages\SunamoWpf.Converters\SunamoWpf.Converters\obj\Debug\net10.0-windows\SunamoWpf.Converters.GeneratedMSBuildEditorConfig.editorconfig
+E:\vs\Projects\WindowsNuGetPackages\SunamoWpf.Converters\SunamoWpf.Converters\obj\Debug\net10.0-windows\SunamoWpf.Converters.csproj.CoreCompileInputs.cache
+E:\vs\Projects\WindowsNuGetPackages\SunamoWpf.Converters\SunamoWpf.Converters\obj\Debug\net10.0-windows\SunamoWpf.Converters.sourcelink.json
+E:\vs\Projects\WindowsNuGetPackages\SunamoWpf.Converters\SunamoWpf.Converters\obj\Debug\net10.0-windows\SunamoWp.53136B83.Up2Date
+E:\vs\Projects\WindowsNuGetPackages\SunamoWpf.Converters\SunamoWpf.Converters\obj\Debug\net10.0-windows\SunamoWpf.Converters.dll
+E:\vs\Projects\WindowsNuGetPackages\SunamoWpf.Converters\SunamoWpf.Converters\obj\Debug\net10.0-windows\refint\SunamoWpf.Converters.dll
+E:\vs\Projects\WindowsNuGetPackages\SunamoWpf.Converters\SunamoWpf.Converters\obj\Debug\net10.0-windows\SunamoWpf.Converters.pdb
+E:\vs\Projects\WindowsNuGetPackages\SunamoWpf.Converters\SunamoWpf.Converters\obj\Debug\net10.0-windows\ref\SunamoWpf.Converters.dll

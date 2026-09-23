@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>SunamoWpf.Converters</id>
+    <version>26.7.28.1</version>
+    <authors>www.sunamo.cz</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <projectUrl>https://sunamo.github.io/PlatformIndependentNuGetPackages/SunamoWpf.Converters/</projectUrl>
+    <description>WPF value converters extracted from SunamoWpf</description>
+    <releaseNotes>y</releaseNotes>
+    <copyright>www.sunamo.cz</copyright>
+    <repository type="git" url="https://github.com/sunamo/SunamoWpf.Converters.git" branch="refs/heads/master" commit="b612c4fdd11644dac92805fa4e3b07e8dcfdea5a" />
+    <dependencies>
+      <group targetFramework="net10.0-windows7.0">
+        <dependency id="SunamoWpf.Core" version="26.7.28.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net10.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WPF" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="E:\vs\Projects\WindowsNuGetPackages\SunamoWpf.Converters\SunamoWpf.Converters\bin\Release\net10.0-windows\SunamoWpf.Converters.pdb" target="lib\net10.0-windows7.0\SunamoWpf.Converters.pdb" />
+    <file src="E:\vs\Projects\WindowsNuGetPackages\SunamoWpf.Converters\SunamoWpf.Converters\bin\Release\net10.0-windows\SunamoWpf.Converters.dll" target="lib\net10.0-windows7.0\SunamoWpf.Converters.dll" />
+  </files>
+</package>
