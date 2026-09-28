@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZFNRub7/9tk=",
+  "dgSpecHash": "Zp73QFLY3F8=",
   "success": true,
-  "projectFilePath": "E:\\vs\\Projects\\PlatformIndependentNuGetPackages\\SunamoWpf.Converters\\SunamoWpf.Converters\\SunamoWpf.Converters.csproj",
+  "projectFilePath": "E:\\vs\\Projects\\WindowsNuGetPackages-claude\\SunamoWpf.Converters\\SunamoWpf.Converters\\SunamoWpf.Converters.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aktiv\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\10.0.8\\microsoft.extensions.dependencyinjection.10.0.8.nupkg.sha512",
     "C:\\Users\\aktiv\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.8\\microsoft.extensions.dependencyinjection.abstractions.10.0.8.nupkg.sha512",
@@ -53,7 +53,10 @@
     "C:\\Users\\aktiv\\.nuget\\packages\\system.serviceprocess.servicecontroller\\10.0.8\\system.serviceprocess.servicecontroller.10.0.8.nupkg.sha512",
     "C:\\Users\\aktiv\\.nuget\\packages\\system.speech\\10.0.8\\system.speech.10.0.8.nupkg.sha512",
     "C:\\Users\\aktiv\\.nuget\\packages\\system.web.services.description\\8.1.2\\system.web.services.description.8.1.2.nupkg.sha512",
-    "C:\\Users\\aktiv\\.nuget\\packages\\textcopy\\6.2.1\\textcopy.6.2.1.nupkg.sha512"
+    "C:\\Users\\aktiv\\.nuget\\packages\\textcopy\\6.2.1\\textcopy.6.2.1.nupkg.sha512",
+    "C:\\Users\\aktiv\\.nuget\\packages\\microsoft.netcore.app.ref\\10.0.10\\microsoft.netcore.app.ref.10.0.10.nupkg.sha512",
+    "C:\\Users\\aktiv\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\10.0.10\\microsoft.windowsdesktop.app.ref.10.0.10.nupkg.sha512",
+    "C:\\Users\\aktiv\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\10.0.10\\microsoft.aspnetcore.app.ref.10.0.10.nupkg.sha512"
   ],
   "logs": []
 }
