@@ -396,3 +396,12 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# Doplneno automaticky - odstraneny trackovane build/cache slozky
+obj/
+target/
+.idea/
+Debug/
+Release/
+.dart_tool/
+.gradle/
