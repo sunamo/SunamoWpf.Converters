@@ -28,4 +28,8 @@
   </PropertyGroup>
   <ItemGroup>
   </ItemGroup>
+  <!-- Excluded from the namespace normalization step of the publish tooling (namespaces are intentionally kept as-is). -->
+  <ItemGroup>
+    <None Remove="_sunamo\**" />
+  </ItemGroup>
 </Project>
