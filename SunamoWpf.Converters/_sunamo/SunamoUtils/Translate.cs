@@ -1,9 +1,8 @@
-﻿#define ASYNC
-namespace SunamoWpf._sunamo;
+#define ASYNC
+namespace SunamoWpf.Converters._sunamo;
 
 internal class Translate
 {
-
 
     public static string FromKey(object allOfTheInputsMustBeFilled)
     {
