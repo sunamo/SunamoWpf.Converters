@@ -1,6 +1,4 @@
-global using SunamoWpf._sunamo;
-global using SunamoWpf._sunamo.SunamoExceptions;
-global using SunamoWpf.Converters;
+﻿global using SunamoWpf.Converters;
 global using SunamoWpf.ValueConverters;
 global using SunamoWpf;
 global using System;

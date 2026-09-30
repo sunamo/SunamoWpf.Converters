@@ -27,6 +27,5 @@
     <PackageReleaseNotes>y</PackageReleaseNotes>
   </PropertyGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\SunamoWpf.Core\SunamoWpf.Core\SunamoWpf.Core.csproj" />
   </ItemGroup>
 </Project>
