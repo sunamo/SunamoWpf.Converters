@@ -2,53 +2,53 @@ namespace SunamoWpf.Converters;
 
 public static partial class StringHexColorConverter //: ISimpleConverter<string, Color>
 {
-    public static string ConvertTo(System.Drawing.Color u)
+    public static string ConvertTo(System.Drawing.Color color)
     {
-        return string.Format("#{0:X2}{1:X2}{2:X2}{3:X2}", u.A, u.R, u.G, u.B);
+        return string.Format("#{0:X2}{1:X2}{2:X2}{3:X2}", color.A, color.R, color.G, color.B);
     }
 
     /// <summary>
     /// Can be entered with or without # - is used TrimStart()
     /// </summary>
-    /// <param name = "t"></param>
-    public static System.Drawing.Color? ConvertFrom(string t)
+    /// <param name = "hex"></param>
+    public static System.Drawing.Color? ConvertFrom(string hex)
     {
         //TODO: Write unit test for it - Tato metoda je nějaká divná asi, kdyby nefungovala, použij místo ní třídu BrushConverter a metodu ConvertFrom
 
         //Color vr = new Color();
-        t = t.TrimStart('#');
-        if (t.Length == 8)
+        hex = hex.TrimStart('#');
+        if (hex.Length == 8)
         {
-            return System.Drawing.Color.FromArgb(GetGroup(0, t), GetGroup(1, t), GetGroup(2, t), GetGroup(3, t));
+            return System.Drawing.Color.FromArgb(GetGroup(0, hex), GetGroup(1, hex), GetGroup(2, hex), GetGroup(3, hex));
         }
-        else if (t.Length == 6)
+        else if (hex.Length == 6)
         {
-            return System.Drawing.Color.FromArgb(GetGroup(0, t), GetGroup(1, t), GetGroup(2, t));
+            return System.Drawing.Color.FromArgb(GetGroup(0, hex), GetGroup(1, hex), GetGroup(2, hex));
         }
         // earlier time Color.Black
         return null;
     }
 
-    private static byte GetGroup(int p, string t)
+    private static byte GetGroup(int groupIndex, string hex)
     {
-        string s = "";
-        if (p == 0)
+        string groupText = "";
+        if (groupIndex == 0)
         {
-            s = t[0].ToString() + t[1].ToString();
+            groupText = hex[0].ToString() + hex[1].ToString();
         }
-        else if (p == 1)
+        else if (groupIndex == 1)
         {
-            s = t[2].ToString() + t[3].ToString();
+            groupText = hex[2].ToString() + hex[3].ToString();
         }
-        else if (p == 2)
+        else if (groupIndex == 2)
         {
-            s = t[4].ToString() + t[5].ToString();
+            groupText = hex[4].ToString() + hex[5].ToString();
         }
         else
         {
-            s = t[6].ToString() + t[7].ToString();
+            groupText = hex[6].ToString() + hex[7].ToString();
         }
 
-        return Convert.ToByte(s, 16);
+        return Convert.ToByte(groupText, 16);
     }
 }
