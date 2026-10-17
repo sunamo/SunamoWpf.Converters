@@ -1,20 +1,19 @@
-#define ASYNC
 namespace SunamoWpf.Converters._sunamo;
 
 internal partial class ThrowEx
 {
 
-    public static bool Custom(Exception exception, bool reallyThrow = true)
+    internal static bool Custom(Exception exception, bool reallyThrow = true)
     { return Custom(Exceptions.TextOfExceptions(exception), reallyThrow); }
 
-    public static bool Custom(string message, bool reallyThrow = true, string secondMessage = "")
+    internal static bool Custom(string message, bool reallyThrow = true, string secondMessage = "")
     {
         string joined = string.Join(" ", message, secondMessage);
         string? str = Exceptions.Custom(FullNameOfExecutedCode(), joined);
         return ThrowIsNotNull(str, reallyThrow);
     }
 
-    public static string FullNameOfExecutedCode()
+    internal static string FullNameOfExecutedCode()
     {
         Tuple<string, string, string> placeOfExc = Exceptions.PlaceOfException();
         string fullName = FullNameOfExecutedCode(placeOfExc.Item1, placeOfExc.Item2, true);
@@ -55,7 +54,7 @@ internal partial class ThrowEx
         return string.Concat(typeFullName, ".", methodName);
     }
 
-    public static bool ThrowIsNotNull(string? exception, bool reallyThrow = true)
+    internal static bool ThrowIsNotNull(string? exception, bool reallyThrow = true)
     {
         if (exception != null)
         {
@@ -69,7 +68,7 @@ internal partial class ThrowEx
         return false;
     }
 
-    public static bool ThrowIsNotNull(Exception exception, bool reallyThrow = true)
+    internal static bool ThrowIsNotNull(Exception exception, bool reallyThrow = true)
     {
         if (exception != null)
         {
@@ -79,19 +78,19 @@ internal partial class ThrowEx
         return true;
     }
 
-    public static bool ThrowIsNotNull<A, B>(Func<string, A, B, string?> messageFactory, A exception, B message)
+    internal static bool ThrowIsNotNull<A, B>(Func<string, A, B, string?> messageFactory, A exception, B message)
     {
         string? exc = messageFactory(FullNameOfExecutedCode(), exception, message);
         return ThrowIsNotNull(exc);
     }
 
-    public static bool ThrowIsNotNull<A>(Func<string, A, string?> messageFactory, A exception)
+    internal static bool ThrowIsNotNull<A>(Func<string, A, string?> messageFactory, A exception)
     {
         string? exc = messageFactory(FullNameOfExecutedCode(), exception);
         return ThrowIsNotNull(exc);
     }
 
-    public static bool ThrowIsNotNull(Func<string, string?> messageFactory)
+    internal static bool ThrowIsNotNull(Func<string, string?> messageFactory)
     {
         string? exc = messageFactory(FullNameOfExecutedCode());
         return ThrowIsNotNull(exc);
