@@ -24,7 +24,7 @@
     <EmbedUntrackedSources>true</EmbedUntrackedSources>
     <ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
     <Optimize>false</Optimize>
-    <PackageReleaseNotes>y</PackageReleaseNotes>
+    <PackageReleaseNotes>Rename short identifiers to descriptive names</PackageReleaseNotes>
   </PropertyGroup>
   <ItemGroup>
   </ItemGroup>

@@ -1,4 +1,4 @@
-﻿global using SunamoWpf.Converters;
+global using SunamoWpf.Converters;
 global using SunamoWpf.ValueConverters;
 global using SunamoWpf;
 global using System;
