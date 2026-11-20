@@ -8,8 +8,19 @@ namespace SunamoWpf.Converters;
 /// </summary>
 public class HeaderToImageConverter : IValueConverter
 {
+    /// <summary>
+    /// The instance.
+    /// </summary>
     public static HeaderToImageConverter Instance = new HeaderToImageConverter();
 
+    /// <summary>
+    /// Convert.
+    /// </summary>
+    /// <param name="value">The value.</param>
+    /// <param name="targetType">The target type.</param>
+    /// <param name="parameter">The parameter.</param>
+    /// <param name="culture">The culture.</param>
+    /// <returns>The convert result.</returns>
     public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
     {
         //FileSystemEntry path = (value as FileSystemEntry);
@@ -30,6 +41,14 @@ public class HeaderToImageConverter : IValueConverter
 
     static Type type = typeof(HeaderToImageConverter);
 
+    /// <summary>
+    /// Convert back.
+    /// </summary>
+    /// <param name="value">The value.</param>
+    /// <param name="targetType">The target type.</param>
+    /// <param name="parameter">The parameter.</param>
+    /// <param name="culture">The culture.</param>
+    /// <returns>The convert back result.</returns>
     public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
     {
         ThrowEx.Custom("CannotConvertBack");
