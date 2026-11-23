@@ -1,7 +1,15 @@
 namespace SunamoWpf.Converters;
 
+/// <summary>
+/// Represents the string hex color converter type.
+/// </summary>
 public static partial class StringHexColorConverter //: ISimpleConverter<string, Color>
 {
+    /// <summary>
+    /// Convert to.
+    /// </summary>
+    /// <param name="color">The color.</param>
+    /// <returns>The convert to result.</returns>
     public static string ConvertTo(System.Drawing.Color color)
     {
         return string.Format("#{0:X2}{1:X2}{2:X2}{3:X2}", color.A, color.R, color.G, color.B);

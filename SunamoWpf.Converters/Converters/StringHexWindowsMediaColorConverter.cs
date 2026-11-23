@@ -1,11 +1,24 @@
 namespace SunamoWpf.Converters;
 
+/// <summary>
+/// Represents the string hex windows media color converter type.
+/// </summary>
 public static class StringHexWindowsMediaColorConverter //: ISimpleConverter<string, Color>
 {
+    /// <summary>
+    /// Convert to.
+    /// </summary>
+    /// <param name="color">The color.</param>
+    /// <returns>The convert to result.</returns>
     public static string ConvertTo(Color color)
     {
         return SHFormat.Format4("#{0:X2}{1:X2}{2:X2}{3:X2}", color.A, color.R, color.G, color.B);
     }
+    /// <summary>
+    /// Convert from.
+    /// </summary>
+    /// <param name="hex">The hex.</param>
+    /// <returns>The convert from result.</returns>
     public static Color ConvertFrom(string hex)
     {
         Color result = new Color();
